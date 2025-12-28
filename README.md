@@ -132,11 +132,28 @@
 
 <div align="center">
 
-|          🏷️ Project          | 📝 Description                                       |               🛠️ Tech               |
-| :--------------------------: | :--------------------------------------------------- | :---------------------------------: |
-|     **📱 Calories-App**      | Mobile app for tracking daily calories and nutrition |     `Flutter` `Dart` `Firebase`     |
-| **🛍️ WinForms Fashion Shop** | Desktop POS system for fashion retail management     | `C#` `WinForms` `.NET` `SQL Server` |
-|     **🌐 Web Portfolio**     | Personal portfolio & blog website                    |     `React` `Node.js` `MongoDB`     |
+| 🏷️ Project | 📝 Description | 🛠️ Tech |
+|:---:|:---|:---:|
+| [**📱 Calories-App**](https://github.com/qtuwn/Calories-App) | Mobile app for tracking daily calories and nutrition | `Flutter` `Dart` `Firebase` |
+| [**🧋 MilkTeaManager**](https://github.com/qtuwn/MilkTeaManager) | Desktop management system for milk tea shop operations | `C#` `WinForms` `.NET` `SQL Server` |
+| [**💬 ecommerce-live-support**](https://github.com/qtuwn/ecommerce-live-support) | Real-time live chat support for e-commerce platforms | `Node.js` `React` `Socket.IO` `MongoDB` |
+| [**🏠 websitenoithat_hanokihome**](https://github.com/qtuwn/websitenoithat_hanokihome) | Furniture e-commerce website | `PHP` `MySQL` `WordPress` |
+
+</div>
+
+---
+
+## 🤝 Collaboration Projects
+
+<div align="center">
+
+| 🏷️ Project | 📝 Description | 🛠️ Tech |
+|:---:|:---|:---:|
+| [**🍽️ DinerChill**](https://github.com/NotVNT/DinerChill) | Restaurant ordering and management system | `C#` `.NET` `SQL Server` |
+| [**🧋 MilkTea**](https://github.com/NotVNT/MilkTea) | Milk tea shop management application | `C#` `WinForms` `.NET` |
+| [**📋 MilkTeaOrder**](https://github.com/NotVNT/MilkTeaOrder) | Order processing system for milk tea shops | `C#` `.NET` `SQL Server` |
+| [**🥤 OrderMilkTeaProgram**](https://github.com/Vizzy-san/OrderMilkTeaProgram) | Milk tea ordering program | `C#` `WinForms` `.NET` |
+| [**🛋️ FurnitureStore**](https://github.com/NotVNT/FurnitureStore) | Furniture store management system | `C#` `.NET` `SQL Server` |
 
 </div>
 
