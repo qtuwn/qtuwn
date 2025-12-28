@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Hero Banner -->
-<img src="./svg/qtuwm.svg" width="100%" alt="qtuwm banner"/>
+<img src="./svg/qtuwn.svg" width="100%" alt="qtuwn banner"/>
 
 <!-- Quotes Banner -->
-<img src="./svg/qtuwm-quotes.svg" width="80%" alt="quotes"/>
+<img src="./svg/qtuwn-quotes.svg" width="80%" alt="quotes"/>
 
 <br/>
 
