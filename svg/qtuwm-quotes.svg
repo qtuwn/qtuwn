@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="800" height="120">
+  <defs>
+    <style>
+      @keyframes fadeInOut1 {
+        0%, 30% { opacity: 1; }
+        33%, 96% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      @keyframes fadeInOut2 {
+        0%, 30% { opacity: 0; }
+        33%, 63% { opacity: 1; }
+        66%, 100% { opacity: 0; }
+      }
+      @keyframes fadeInOut3 {
+        0%, 63% { opacity: 0; }
+        66%, 96% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+      .quote1 { animation: fadeInOut1 12s ease-in-out infinite; }
+      .quote2 { animation: fadeInOut2 12s ease-in-out infinite; }
+      .quote3 { animation: fadeInOut3 12s ease-in-out infinite; }
+      .cursor { animation: blink 0.8s step-end infinite; }
+      .decoration { animation: pulse 2s ease-in-out infinite; }
+    </style>
+    <linearGradient id="quoteBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="quoteText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff"/>
+      <stop offset="100%" style="stop-color:#a855f7"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="120" rx="10" fill="url(#quoteBg)"/>
+  
+  <!-- Border decoration -->
+  <rect x="2" y="2" width="796" height="116" rx="8" fill="none" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Quote marks decoration -->
+  <text x="30" y="50" font-family="Georgia, serif" font-size="40" fill="#58a6ff" opacity="0.3" class="decoration">"</text>
+  <text x="750" y="90" font-family="Georgia, serif" font-size="40" fill="#58a6ff" opacity="0.3" class="decoration">"</text>
+  
+  <!-- Quote 1 -->
+  <g class="quote1">
+    <text x="400" y="55" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="url(#quoteText)">
+      🚀 Build real apps. Ship often.
+    </text>
+    <text x="400" y="85" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8b949e">
+      — qtuwm
+    </text>
+  </g>
+  
+  <!-- Quote 2 -->
+  <g class="quote2">
+    <text x="400" y="55" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="url(#quoteText)">
+      🏗️ Clean Architecture > Clean excuses.
+    </text>
+    <text x="400" y="85" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8b949e">
+      — qtuwm
+    </text>
+  </g>
+  
+  <!-- Quote 3 -->
+  <g class="quote3">
+    <text x="400" y="55" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="url(#quoteText)">
+      ⚡ Automation is the new superpower.
+    </text>
+    <text x="400" y="85" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8b949e">
+      — qtuwm
+    </text>
+  </g>
+  
+  <!-- Typing cursor effect -->
+  <rect class="cursor" x="580" y="40" width="3" height="24" fill="#58a6ff"/>
+</svg>

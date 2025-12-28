@@ -1,0 +1,85 @@
+name: Validate Profile README
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    name: Validate README and Assets
+    
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 📋 Check README.md exists
+        run: |
+          if [ -f "README.md" ]; then
+            echo "✅ README.md found"
+          else
+            echo "❌ README.md not found"
+            exit 1
+          fi
+
+      - name: 🎨 Check SVG assets exist
+        run: |
+          echo "Checking SVG assets..."
+          
+          if [ -f "svg/qtuwm.svg" ]; then
+            echo "✅ svg/qtuwm.svg found"
+          else
+            echo "❌ svg/qtuwm.svg not found"
+            exit 1
+          fi
+          
+          if [ -f "svg/qtuwm-quotes.svg" ]; then
+            echo "✅ svg/qtuwm-quotes.svg found"
+          else
+            echo "❌ svg/qtuwm-quotes.svg not found"
+            exit 1
+          fi
+
+      - name: 📏 Validate SVG files
+        run: |
+          echo "Validating SVG files are not empty..."
+          
+          for svg in svg/*.svg; do
+            if [ -s "$svg" ]; then
+              echo "✅ $svg is valid ($(wc -c < "$svg") bytes)"
+            else
+              echo "❌ $svg is empty or invalid"
+              exit 1
+            fi
+          done
+
+      - name: 📝 Check README content
+        run: |
+          echo "Checking README contains required sections..."
+          
+          # Check for essential sections
+          if grep -q "About Me" README.md; then
+            echo "✅ About Me section found"
+          else
+            echo "⚠️ About Me section not found (optional)"
+          fi
+          
+          if grep -q "Tech Stack" README.md || grep -q "🛠" README.md; then
+            echo "✅ Tech Stack section found"
+          else
+            echo "⚠️ Tech Stack section not found (optional)"
+          fi
+          
+          if grep -q "github-readme-stats" README.md; then
+            echo "✅ GitHub Stats found"
+          else
+            echo "⚠️ GitHub Stats not found (optional)"
+          fi
+
+      - name: ✅ Validation Complete
+        run: |
+          echo "🎉 All validations passed!"
+          echo "Profile README is ready to be displayed on GitHub."
