@@ -19,7 +19,7 @@
 
 <img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif"/>
 
-🇻🇳 **Xin chào! Mình là Tuấn (qtuwm)**
+🇻🇳 **Xin chào! Tôi là Tuấn (qtuwm)**
 
 > _Một lập trình viên đam mê xây dựng các ứng dụng thực tế với code sạch và kiến trúc rõ ràng._
 
@@ -104,8 +104,8 @@
 <div align="center">
   
 <a href="https://github.com/qtuwm">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=qtuwm&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=qtuwm&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=qtuwm&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&cache_seconds=1800&v=1" alt="GitHub Stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=qtuwm&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&cache_seconds=1800&v=1" alt="Top Languages"/>
 </a>
 
 <br/>
@@ -119,8 +119,12 @@
 ## 🐍 Contribution Snake
 
 <div align="center">
-  
-![Snake animation](https://github.com/qtuwm/qtuwm/blob/output/github-contribution-grid-snake.svg)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/qtuwm/qtuwm/blob/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/qtuwm/qtuwm/blob/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://github.com/qtuwm/qtuwm/blob/output/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
 
@@ -140,12 +144,14 @@
 
 ---
 
-## 📫 Connect With Me
+## 📫 Contact
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-qtuwm-181717?style=for-the-badge&logo=github)](https://github.com/qtuwm)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tu%E1%BA%A5n-qu%E1%BB%91c-866a63251)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/quoctuan.tu.98/?locale=vi_VN)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tuquoctuan201@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/qtuwm)
 
 </div>
 
