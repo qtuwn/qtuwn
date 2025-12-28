@@ -102,15 +102,15 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  
-<a href="https://github.com/qtuwm">
+
+<p>
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=qtuwm&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&cache_seconds=1800&v=1" alt="GitHub Stats"/>
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=qtuwm&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&cache_seconds=1800&v=1" alt="Top Languages"/>
-</a>
+</p>
 
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=qtuwm&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak"/>
+<p>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=qtuwm&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak"/>
+</p>
 
 </div>
 
@@ -120,11 +120,9 @@
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/qtuwm/qtuwm/blob/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/qtuwm/qtuwm/blob/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://github.com/qtuwm/qtuwm/blob/output/github-contribution-grid-snake.svg" />
-</picture>
+<img src="https://raw.githubusercontent.com/qtuwm/qtuwm/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
+
+<img src="https://raw.githubusercontent.com/qtuwm/qtuwm/output/github-contribution-grid-snake-dark.svg" alt="Snake animation dark"/>
 
 </div>
 
