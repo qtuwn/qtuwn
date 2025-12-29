@@ -101,10 +101,12 @@
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=qtuwn&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&v=2)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=qtuwn&layout=compact&theme=tokyonight&v=2)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=qtuwn&theme=tokyonight&hide_border=true&v=2)
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=qtuwn&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&cache_seconds=21600" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=qtuwn&layout=compact&theme=tokyonight&cache_seconds=21600" />
+  <br/>
+  <img src="https://streak-stats.demolab.com?user=qtuwn&theme=tokyonight&hide_border=true" />
+</div>
 
 ---
 
